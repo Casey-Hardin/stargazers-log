@@ -85,6 +85,13 @@ body {
   font-size: 0.95rem;
 }
 
+.load-help {
+  margin: 1rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
 .repo-list {
   list-style: none;
   padding: 0;
@@ -106,13 +113,20 @@ body {
 }
 
 .repo-item a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
 }
 
 .repo-item a:hover,
 .repo-item a:focus-visible {
   color: var(--accent-strong);
+}
+
+.repo-item a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .repo-meta {
