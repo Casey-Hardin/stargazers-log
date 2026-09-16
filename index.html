@@ -2,10 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Stargazers log</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Stargazers log</h1>
-    <p>A log of the repositories I've starred.</p>
+    <main class="page">
+      <header class="hero">
+        <p class="eyebrow">Project dashboard</p>
+        <h1>Starred repositories</h1>
+        <p class="intro">A simple view of repositories starred for inspiration, tooling, and reference.</p>
+      </header>
+
+      <section class="panel" aria-labelledby="repo-list-heading">
+        <div class="panel-header">
+          <h2 id="repo-list-heading">Recently starred</h2>
+          <p id="status" class="status" aria-live="polite">Loading repositories...</p>
+        </div>
+        <ul id="repo-list" class="repo-list"></ul>
+        <p id="load-help" class="load-help" hidden>This page needs to be served over HTTP to load <code>events.json</code>. Open it through a local server or GitHub Pages instead of directly from disk.</p>
+      </section>
+    </main>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "microsoft/vscode",
+    "description": "Code editor with a rich extension ecosystem and strong debugging support.",
+    "language": "TypeScript",
+    "stars": 172000,
+    "starredAt": "2026-09-10T09:15:00Z",
+    "url": "https://github.com/microsoft/vscode"
+  },
+  {
+    "id": 2,
+    "name": "vitejs/vite",
+    "description": "Fast frontend tooling for local development and production builds.",
+    "language": "TypeScript",
+    "stars": 76000,
+    "starredAt": "2026-09-11T14:40:00Z",
+    "url": "https://github.com/vitejs/vite"
+  },
+  {
+    "id": 3,
+    "name": "denoland/deno",
+    "description": "Secure runtime for JavaScript and TypeScript with first-class tooling.",
+    "language": "Rust",
+    "stars": 98000,
+    "starredAt": "2026-09-13T18:05:00Z",
+    "url": "https://github.com/denoland/deno"
+  },
+  {
+    "id": 4,
+    "name": "tailwindlabs/headlessui",
+    "description": "Accessible, unstyled UI primitives for modern web apps.",
+    "language": "TypeScript",
+    "stars": 26000,
+    "starredAt": "2026-09-15T07:30:00Z",
+    "url": "https://github.com/tailwindlabs/headlessui"
+  }
+]
